@@ -1,0 +1,6 @@
+num = int(input('digite um numero'))
+print('--'*12)
+print("{} * {} = {}".format(num, 1, num*1))
+print("{} * {} = {}".format(num, 2, num*2))
+print("{} * {} = {}".format(num, 3, num*3))
+print("--"*12)

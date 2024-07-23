@@ -1,0 +1,6 @@
+print('informaçoes de nascimento')
+nome = input('seu nome:')
+data = input("data:")
+mes = input('mes:')
+ano = input('ano:')
+print("ola ", nome," você nasceu no dia ", data, " do ", mes," de ", ano)

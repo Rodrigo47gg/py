@@ -1,0 +1,8 @@
+n1 = input('\033[1;33;41m digite algo: \033[m')
+print(n1.isalnum())
+print(n1.isalpha())
+print(n1.isascii())
+print(n1.isdecimal())
+print(n1.isdigit())
+print(n1.islower())
+print(n1.isnumeric())

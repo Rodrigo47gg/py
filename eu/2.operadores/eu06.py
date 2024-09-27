@@ -1,1 +1,6 @@
-
+print("\033[1;31;41m==\033[m"*9)
+num = int(input('\033[1;33;41m digite um numero: \033[m'))
+print('=='*9)
+print('\033[1;30;44m o dobro de {} é {}\033[m'.format(num, num * 2))
+print('\033[1;31;42m o triplo de {} é {}\033[m'.format(num, num * 3))
+print("\033[1;32;43m a raizq de {} é {:.2f}".format(num, num ** (1/2)))

@@ -1,0 +1,5 @@
+lag = float(input('\033[1;31m largura da parede: \033[m'))
+alt = float(input('\033[1;32m altura da parede: \033[m'))
+ss = (lag * alt) 
+print('\033[1;32m sua parede tem {}*{} e sua area e de {}\033[m'.format(lag, alt, ss))
+print('\033[1;31mpara pintar essa parede, você precisará de {}L de tinta.\033[m'.format(ss / 2))
